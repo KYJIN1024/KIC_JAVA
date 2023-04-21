@@ -1,0 +1,60 @@
+데이터 - 프로그램 + > 처리(방법)
+	
+
+임시데이터
+	변수 / 상수 
+영구데이터
+	CRUD
+		CREATE / READ / UPDATE / DELETE
+
+	1. 파일/디렉토리 정보 java.io.file - nio => 탐색기 / dir 
+	2. 파일(txt) 내용
+		1. 1차스트림   - interface - 메서드명  => 구현
+			데이터분류
+			InputStream / OutputStream
+			Reader/Writer
+			I/O
+			InputStream / Reader
+			OutputStream / Writer
+			=> 구현
+				FileInputStream / FileOutputStream
+				FileReader / FileWriter
+		2. 2차 스트림 
+			BufferdInputStream / BufferOutputStream
+			BufferReader / BufferWriter	
+
+
+
+
+
+	로컬 데이터
+		일반파일 - 메모장에서 내용을 볼수 있는 파일(txt) , oracle에서 제공
+		바이너리파일 - 특별한 프로그램이 존재 image/sound , docx/xls/ppt/hwp
+	원격 데이터
+		데이터베이스
+		OpenAPI
+
+
+엑셀  
+  2003버전까지 xls
+  2003버전이후 xlsx
+
+
+---------
+지금까지 자바기초(?)
+
+데이터베이스
+자바실전
+	데이터베이스 연동
+	네트워크
+	GUI
+미니프로젝트 3일 시간을 준후 제출...ㅜ
+
+* 이번주 목 오전... (30)
+	퀴즈 - 자바기초
+	캡처 - 번호별 통계...	
+
+
+
+
+		

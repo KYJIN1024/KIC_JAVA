@@ -1,0 +1,40 @@
+
+퀴즈 - sql 기본
+캡처 - sql 작성 / 실행
+
+swing
+
+	UI		- view(=>pattern:mvc)
+			WindowBuilder
+				컨테이너(JFrame) - resizable(false)
+					contentPane(Jpanel)
+					Layout Manager(null /absolute)
+		컴포넌트를 배치(색 => 균형감)
+		이벤트
+	소스코딩
+		이벤트 내부 코딩 
+
+Model 
+	DAO(Data Access Object)
+		데이터(데이터베이스, 파일..) 연결
+		처리 로직 메서드화
+	(D)TO(Transfer Object)
+		데이터 전송
+=> jar(실행파일 묶음)
+
+=>분업
+
+컴포넌트
+	JLABEL / JTEXTAREA
+	JBUTTON
+	JTEXTFIELD / JPASSWORDFIELD / JTEXTAREA
+	JCHECKBOX / JRADIOBUTTON
+
+	에러/ 옵션 
+
+
+
+
+
+
+

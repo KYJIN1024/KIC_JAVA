@@ -1,0 +1,60 @@
+DATA
+	외부
+		프로토콜
+
+1. 웹서버 - HTML ... 기타 자료정보 / 공개, 공식 제공자료는 아님
+			HTML(image)- 크롤링, 스크래핑
+				 => 가공이 필요함
+				1. String, StringBuffer, SringBuilder
+				2. Regular Expression (POSIX)
+				3. Library(API) - JSoup
+				4.
+	OpenAPI - 공식제공: 회원가입(api key)
+			1. text
+					CSV(comma-separated variables)
+					XML
+					JSON - Javascript Object Notation
+					* String, StringBuffer, SringBuilder
+					* Library(API)
+
+			2. Library(API)
+					
+			
+
+
+
+영화 상세정보
+영화 고유번호 movieCd
+영화제목 movieNm
+배우목록 actors
+
+1. Socket
+	ServerSocket				<- Socket
+	제공자용 소켓				<- Socket
+	1. 전송규약
+	2. 포트
+				TCP  (Transmission Control Protocol) - 전화 (확인 / 응답)  / 속도가 느림
+				UDP  (User Diagram Protocol) - 방송 /  확인하지 않음 
+
+클라이언트			 서버
+
+  단수 			구구단
+구구단출력		
+
+
+
+d:\JAVA_LAB\SocketEx01\bin>java Pack4.TCPServerEx01
+
+java -cp .;C:\Program Files\Java\jdk-19\lib\json-simple-1.1.1.jar Pack5.TCPServerEx01
+
+
+
+우편번호 검색기
+
+명령프롬프트							이클립스
+클라이언트								서버
+동이름								동이름 검색결과
+출력
+
+
+192.168.42.106

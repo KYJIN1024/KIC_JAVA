@@ -1,0 +1,52 @@
+
+1. 데이터베이스
+	select distinct sido from zipcode
+	select distinct guguan from zipcode where sido = '서울'
+	select distinct dong from zipcode where sido = '서울' and gugun
+	select zipcode, ri, bunji from zipcode where sido = '서울' and gugun
+
+2. uml
+	class diagram - 클래스 / 메서드 / 필드
+
+	(1)ZipcodeSearchUI
+				SidoComboboxModel
+				GugunComboboxModel      - ZipcodeTo 클래스에서 가져올예정      ZipcodeDAO
+				DongComboboxModel				setXXX					ArrayList<Zipcodeto>listSido()
+						getSize()				getXXX					ArrayList<Zipcodeto>listGugun(String strSido>
+						getElementAt()								ArrayList<Zipcodeto>listDong<String strSido, String strGugun>																	     ArrayList<Zipcodeto> listAddress(String strSido, String strGugun, String strDong)
+
+
+	Sequence Diagram 메서드 호출
+	Use Case Diagram 기능
+
+Layout - 컨테이너 컴포넌트 배치
+
+NullLayout(Absolute Layout) - 좌표배치
+BorderLayout - 한개의 화면을 5개로 분할해서 배치(동서남북중앙)
+FlowLayout - 행 또는 열로 배치
+GridLayout - 모눈에 배치
+CardLayout - 한장씩 덮어쓰면서(overWrite)배치
+
+setLayout()
+getLayout()
+
+컨테이너 - 기본 레이아웃
+		JFrame - Border Layout
+		JPanel - FLow Layout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+UI
+	CUI - Character(text)
+	    - 명령프롬프트(dir...)
+	
+	GUI - Graphic(2D->3D)
+		 2D  3D graphic
+		 각 언어마다 틀림
+		 java
+				oracale
+					AWT / Swing
+					Java FX
+		Eclipse
+				SWT  - eclipse
+
+Data
+	임시
+		변수 / 상수
+	영구
+		로컬
+			file
+				text(csv)
+				특수파일   xlsx, image, sound
+		원격
+			데이터베이스
+				 데이터크롤링(스크래핑) <- 네트워크
+						text(csv)
+						xml
+						json
+			OpenAPI
+				1.공공기관 자료 / data.go.kr
+				2.구글디벨로퍼 / developers.google.com
+				3.다음/ 네이버 developers~ 
+				4.영화 www.kobis.or.kr
+				비공식
+					html분석
+
+네트워크의 개념
+		인트라넷 - 사내망( 192.168.xxx.xxx)
+		라우터의 차이   ( 라우터란? 쉽게말해 통신사공유기) 
+		인터넷  - 외부망  / 그외
+
+		ip(internet protocol)
+ip - 전세계의 컴퓨터(네트워크 카드)
+		IPv4 -> IPv6
+
+물리적 주소 . . . . . . . . : 2C-3B-70-57-74-74
+--> 네트워크 카드의 고유 id
+
+
+외부에서 프로그램에 접근
+		프로토콜(전송규약)
+		ip
+		port
+프로토콜		port      기본값은 생략가능
+http			80 / 8080
+https		443
+mail 		25
+mariadb 		3306
+
+ipconfig ,  ipconfig /all
+ping: 저쪽컴퓨터가 살아있는지 물어봄
+tracert  https://gsuite.tools/traceroute
+netstat -an
+
+
+*프로그램간의 역할
+	클라이언트(요청) <-네트워크->  서버(응답) : c/s
+		브라우저와 웹서버(톰캣)
+		mysql명령어(Heidi)와 maraidb서비스
+	P2P(Peer to peer)
+		클라이언트와 서버역할을 동시에
+		블록체인
+
+
+
+
+
+
+					
+https://search.naver.com:437/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=covid
+
+https 프로토콜
+search.naver.com:443 도메인(아이피) /포트
+search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=covid   경로/ 파일명  
+퀴리( 키 + 값)
+
+=>문자열 => URL 
+
+https://jsoup.org/
+
+
+뉴스내용에 뉴스제목 표기
+바로가기 클릭하면 브라우져가 켜지면서 뉴스가 보이게(processbuilder)
+a href
+
+
+상단의 코드를 사용해서
+실시간 뉴스보기 버튼을 누르면 
+https://news.daum.net/ 의 뉴스제목들이 뉴스내용 부분에 출력되고 바로가기 버튼을 누르면 해당뉴스의 웹사이트로 이동하는 코드를 생성해줘.
+
+
+
+
+
+					
+		  

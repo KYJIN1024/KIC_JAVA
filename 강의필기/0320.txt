@@ -1,0 +1,57 @@
+학습한내용 주요 키워드
+
+모듈(java10버전이상부터)
+	패키지문법	
+	package
+		패키지 컴파일 방법
+	import
+	여러개의 클래스 
+		관계
+		is ~ a 의 관계		상속
+		has ~ a 의 관계 로나눔	부속(객체 변수)
+		class A  {  	B
+			B a = new B;
+		ex. 자동차(A)는 타이어(B)를 가지고 있어
+		class A extends {
+		B a = new B;
+
+	객체지향(중심)프로그램[OOP]
+	1. 캡슐화(데이터은닉) 
+		접근제어자
+		setter / getter
+		constructor
+		생성자 오버로딩
+		this / this()*****
+		
+	2. 상속성
+		extends
+		method overriding
+		super / super
+		final *****
+		객체 형변환 *****	
+	
+		3.다형성
+		4.추상화
+
+기본프로그램 문법
+자료
+제어
+
+=> 소스 코딩
+	Visual Studio Code
+	IDE  ex) eclipse - 전자정부프레임워크 ( www.egovframe.go.kr )
+		intellij - 안드로이드 개발
+
+
+eclipse - 압축해제
+[작성순서]
+1. workspace(작업공간) 설정해주기 + 이클립스 설정
+2. 프로젝트 - 모듈
+3. 패키지
+	명시적으로 정하거나 묵시적으로 없앨수도있음(default)
+4. 클래스
+
+
+
+
+		
