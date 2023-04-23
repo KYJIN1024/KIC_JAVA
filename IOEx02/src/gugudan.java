@@ -13,7 +13,6 @@ public class gugudan {
 			InputStreamReader isr = new InputStreamReader(System.in);
 			BufferedReader br = new BufferedReader(isr);
 
-
 			System.out.print("구구단 시작단수를 입력하세요:");
 			startDan = Integer.parseInt(br.readLine());
 			
@@ -27,15 +26,17 @@ public class gugudan {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} finally {
-			if( br != null) try { br.close();} catch(IOException e) {};
+		} 
 		}
-		}
-		
-
-	private static void printGugudan(int startDan, int endDan) {
-		// TODO Auto-generated method stub
-		
+	 public static void printGugudan(int startDan, int endDan) {
+	        for (int i = startDan; i <= endDan; i++) {
+	            for (int j = 1; j <= 9; j++) {
+	                System.out.printf("%d * %d = %d%n", i, j, i * j);
+	            }
+	            System.out.println();
+	        }
+	    }
 	}
+	
+	
 
-}

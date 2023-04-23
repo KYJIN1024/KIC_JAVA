@@ -7,7 +7,8 @@ public class SystemEx02 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//키보드 입력
-		InputStream is = null;
+		InputStream is = System.in;
+		InputStreamReader isr= null;
 		
 		try {
 			isr  = new InputStreamReader(System.in) ;
