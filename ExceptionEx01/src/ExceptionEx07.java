@@ -13,7 +13,7 @@ public class ExceptionEx07 {
 			try {
 			throw new Exception( "100보다 작다" );
 			} catch(Exception e) {
-				System.out.println("[에러]:" + e.getMessage()); // 발생한 예외를 처리하고 excetion화 처리함
+				System.out.println("[에러]:" + e.getMessage()); // 발생한 예외를 처리하고 exception화 처리함
 			}
 		}
 		
@@ -33,13 +33,25 @@ public class ExceptionEx07 {
 			try {
 			throw new Exception( "100보다 작다" );
 			} catch(Exception e) {
-				System.out.println("[에러]:" + e.getMessage()); // 발생한 예외를 처리하고 excetion화 처리함
+				System.out.println("[에러]:" + e.getMessage()); // 발생한 예외를 처리하고 exception화 처리함
 			}
 		}
 		
 		System.out.println(" 메서드 끝 ");
 	}
 
+	  public void method3(int num) throws CustomException {
+	        System.out.println("메서드 시작");
+
+	        // 입력값 검사
+	        if (num >= 100) {
+	            System.out.println("100보다 크다 ");
+	        } else {
+	            throw new CustomException("100보다 작다");
+	        }
+
+	        System.out.println(" 메서드 끝 ");
+	    }
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -48,20 +60,30 @@ public class ExceptionEx07 {
 		ee.method1(200);
 		
 	try {
-		ee.method2( 10 );
-		} catch(Exception e) {
-			System.out.println("[에러]:" + e.getMessage()); // [에러]:100보다 작다
-		}
+	ee.method2( 10 );
+	} catch(Exception e) {
+		System.out.println("[에러]:" + e.getMessage()); // [에러]:100보다 작다
 	}
+	
 	
 	try {
 		 ee.method3( 10 );
-		catch (CustomException e ) {
+	}catch (CustomException e ) {
 			System.out.println("[에러]:"+ e.getMessage() );
 		}
-	}
-
 }
+}
+		
+class CustomException extends Exception {
+    public CustomException() {
+        super();
+    }
+
+    public CustomException(String message) {
+        super(message);
+    }
+}
+
 
 /*
  결과값

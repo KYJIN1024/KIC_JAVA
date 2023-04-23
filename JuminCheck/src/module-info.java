@@ -5,5 +5,5 @@
  * @author GYEONGJIN
  *
  */
-module ExceptionEx01 {
+module JuminCheck {
 }

@@ -7,7 +7,7 @@ public class EmpcodeTO {
 	private String sal;
 	private String hiredate;
 	private String job;
-	
+
 	public String getEmpno() {
 		return empno;
 	}

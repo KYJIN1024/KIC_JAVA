@@ -5,5 +5,5 @@
  * @author GYEONGJIN
  *
  */
-module EmpEx01 {
+module First {
 }

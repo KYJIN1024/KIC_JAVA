@@ -1,5 +1,7 @@
 package pack1;
 
+import pack1.Outer.Inner;
+
 public class InstanceInner test {
 	class Inner{
 		int innerMember = 10;
@@ -8,15 +10,16 @@ public class InstanceInner test {
 		
 		private void innerMethod() {
 			System.out.println("om:"+ outerMember + ",im"+ innerMember);
-		}
-	}
+		};
+	};
+};
 	
 	private int outerMember = 1;
 	
 	private void outerMethod() {
 		Inner inner = new Inner();
 		inner.innerMember = 100;
-		inner.innerMethod()
+		inner.innerMethod();
 	}
 }
 

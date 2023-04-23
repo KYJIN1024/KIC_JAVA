@@ -15,7 +15,7 @@ public class UserManagerWithException {
 		try {
 			//boolean result = userManager.login("hong", "1234");
 			//boolean result = userManager.login("hong2","1234");
-			boolean result = userManager.login("hong","5678");
+			boolean result = useManager.login("hong","abcd");
 			System.out.printf("로그인 성공여부 : %b%n", result);
 		}catch(LoginFailException e) {
 			System.out.printf("예외 처리 : %s%n",e.getLocalizedMessage());
@@ -23,3 +23,24 @@ public class UserManagerWithException {
 	}
 	
 }
+
+class LoginFailException extends RuntimeException {
+    public enum ErrorCode {
+        INVALID_ID,
+        INVALID_PASS
+    }
+
+    private ErrorCode errorCode;
+
+    public LoginFailException(ErrorCode errorCode, String message) {
+        super(message);
+        this.errorCode = errorCode;
+    }
+
+    public ErrorCode getErrorCode() {
+        return errorCode;
+    }
+}
+
+
+
